@@ -1,0 +1,36 @@
+body {
+  text-align: center;
+}
+
+button {
+  padding: 15px;
+  background-color: rgb(223, 175, 18);
+  color: white;
+  border-radius: 8px;
+  border: none;
+  margin: 0 auto;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(92, 167, 6);
+}
+
+button:active,
+button:focus {
+  outline: none;
+}
+
+#pokemon-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+img {
+  width: 250px;
+  background-color: lightsteelblue;
+  border: 8px solid steelblue;
+  border-radius: 8px;
+  padding: 10px;
+}
